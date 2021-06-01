@@ -1,17 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
 body {
     color: #333333;
     font-family: arial;
-    max-width: 650px;
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 0 16px;
-
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
 }
 
-.main-content {
-    flex-grow: 1;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #aa4400;
+    color: whitesmoke;    
+    margin-top: 16px;
+}
+
+header h3 {
+    margin: 16px; 
+    font-family:  'Limelight', cursive;
+}
+.nav-bar li {      
+    display:inline-block;
+    color: whitesmoke;    
+    margin-right: 16px;
+}
+
+.portrait {
+    width: 250px;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    margin-left: 16px;
+}
+
+.search-bar {
+    background-color: wheat;
+    padding: 8px;
+}
+
+.search-bar button {
+    border-style: none;
+    padding: 4px;
+}
+
+.search-input {
+    border-style: none;
+    border-radius: 3%;
+    padding: 4px;
+}
+
+.message-container {
+    background-color: yellow;
+    padding: 48px;
+}
+
+#message-one {
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 footer {
@@ -21,22 +72,8 @@ footer {
     padding: 16px 0;
 }
 
-header {
-    margin-top: 16px;
-    margin-bottom: 48px;
-}
-
-h1 {
-    font-size: 64px;
-    margin-bottom: 16px;
-}
-
-header a {
-    color: #888888;
-    margin-right: 16px;
+li, a {
+    color: whitesmoke;    
     text-decoration: none;
-}
-
-.portrait {
-    width: 250px;
+    list-style: none;
 }

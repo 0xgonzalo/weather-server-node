@@ -12,17 +12,14 @@
 <body>
     </div class="main-content">
         {{>header}}
-
-    <p>Use this site to get your weather!</p>
-
-    <form>
-        <input placeholder="Location">
+    <form class="search-bar">
+        <input placeholder="The Weather in..." class="search-input">
         <button>Search</button>
     </form>
-
+    <div class="message-container">
     <p id="message-one"></p>
     <p id="message-two"></p>
-
+    </div>
         {{>footer}}
 
     </div>
